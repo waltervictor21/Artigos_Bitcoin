@@ -87,6 +87,7 @@ body {
 .skull_of_satoshi {
     margin-top: 2rem;
     width: 30%;
+    max-width: 300px;
 }
 
 .textbuttons {
@@ -153,4 +154,58 @@ body {
 .descricao p a {
     text-decoration: none;
     color:#F7931A
+}
+
+@media (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .header_logo {
+        height: 28px;
+    }
+
+    .cabeçalho ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .skull_of_satoshi {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .textbuttons h1 {
+        font-size: 2rem;
+    }
+
+    .textbuttons {
+        align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .descricao p {
+        width: 90%;
+    }
+
+    .rodape {
+        text-align: center;
+        padding: 1rem;
+        height: auto;
+    }
 }

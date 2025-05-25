@@ -69,10 +69,43 @@ body {
     background-color: #4c4c4c;
     align-items: center;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .rodape p {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     color: white;
+    padding: 0 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .header_logo {
+        height: 28px;
+    }
+
+    .cabeçalho ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .rodape {
+        height: auto;
+        gap: 0.5rem;
+    }
+
+    .rodape p {
+        flex-direction: column;
+        font-size: 0.9rem;
+    }
 }

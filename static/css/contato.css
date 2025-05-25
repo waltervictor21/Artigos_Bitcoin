@@ -104,3 +104,56 @@ body {
 .wv {
     width: 30%;
 }
+
+@media (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .header_logo {
+        height: 28px;
+    }
+
+    .cabeçalho ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .wv {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .rodape {
+        text-align: center;
+        padding: 1rem;
+        height: auto;
+        gap: 0.5rem;
+    }
+
+    .rodape p {
+        padding: 0 1rem;
+        text-align: center;
+    }
+}

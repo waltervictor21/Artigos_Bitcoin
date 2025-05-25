@@ -140,3 +140,67 @@ body {
     width: 300px;
     height: 600px;
 }
+
+@media (max-width: 768px) {
+    .cabeçalho {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .header_logo {
+        height: 28px;
+    }
+
+    .cabeçalho ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .text {
+        padding: 1rem;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .form {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .formulario {
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .textarea {
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .button {
+        width: 100%;
+        max-width: 140px;
+        height: 50px;
+        margin-top: 1rem;
+    }
+
+    .rodape {
+        text-align: center;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .rodape p {
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
