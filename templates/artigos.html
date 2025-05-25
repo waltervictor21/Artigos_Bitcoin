@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+    {% for artigo in artigos %}
+        <div class="artigo" style="color:#4c4c4c;padding-bottom:2rem;">
+            <div class="title" style="display: flex; flex-direction: column; justify-content: space-around; align-items: center; padding:2rem;">
+                <h2 style="color:#f7931a;">{{ artigo.titulo }}</h2>
+                <p style="font-weight:400;border-bottom: 1px solid #ddd; padding-bottom: 5px;">{{ artigo.autor }}</p>
+            </div>
+
+            <details style="display:flex; align-items: center; justify-content: space-around;">
+                <summary style="padding:1rem;">Clique aqui para ler</summary>
+                <p style="padding-left: 4rem;padding-right: 4rem;border-bottom: 1px solid #ddd; padding-bottom: 2rem;">{{ artigo.conteudo | replace('\n', '<br>') | safe }}</p>
+            </details>
+        </div>
+    {% endfor %}
+
+{% endblock %}

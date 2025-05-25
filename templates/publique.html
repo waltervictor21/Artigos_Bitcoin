@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos Bitcoin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/publique.css') }}">
+    <link rel="shortcut icon" type="image" href="{{ url_for('static', filename='img/Favicon.png') }}">
+</head>
+<body>
+    <header class="ajuda">
+        <a href="{{ url_for('contribua') }}" target="_blank">Precisamos de sua ajuda!</a>
+    </header>
+
+    <header class="cabeçalho">
+        <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='img/Header_Logo.png') }}" alt="Logo do Artigos Bitcoin" class="header_logo"></a>
+        <nav>
+            <ul class="header_nav">
+                <li><a href="{{ url_for('artigos') }}">Artigos</a></li>
+                <li><a href="{{ url_for('publique') }}">Publique Seu Artigo</a></li>
+                <li><a href="{{ url_for('contribua') }}">Contribua</a></li>
+                <li><a href="{{ url_for('contato') }}">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="text">
+            <h1>Publique Seu Artigo</h1>
+            <p>Por condições de segurança, após sua publicação do arquivo, nossa equipe irá analisar caso o mesmo seja SPAM ou não seja realmente um artigo. No geral, somos bem liberais no quesito de publicar um artigo ou não. A maioria passa. Obrigado por escrever conosco!</p>
+        </div>
+
+        <div class="form">
+            <form action="https://formsubmit.co/finanbitpodcast@gmail.com" method="POST" class="formulario">
+                <p>Digite o seu nome:</p>
+                <input type="text" name="name" required>
+
+                <p>Digite o seu email: </p>
+                <input type="email" name="email" required>
+
+                <p>Digite seu artigo aqui: </p>
+                <textarea name="message" required class="textarea"></textarea>
+                <button type="submit" class="button">Publique</button>
+            </form>
+        </div>
+            
+    </main>
+
+    <footer class="rodape">
+        <p>O conteúdo desse site está livre para ampla distribuição. Copyright Free. Pode copiar!</p>
+        <p>Doe através de Lightning para o mantenedor desse Website: pioustulip03@walletofsatoshi.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos Bitcoin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ajuda.css') }}">
+    <link rel="shortcut icon" type="image" href="{{ url_for('static', filename='img/Favicon.png') }}">
+</head>
+<body>
+    <header class="ajuda">
+        <a href="{{ url_for('contribua') }}" target="_blank">Precisamos de sua ajuda!</a>
+    </header>
+
+    <header class="cabeçalho">
+        <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='img/Header_Logo.png') }}" alt="Logo do Artigos Bitcoin" class="header_logo"></a>
+        <nav>
+            <ul class="header_nav">
+                <li><a href="{{ url_for('artigos') }}">Artigos</a></li>
+                <li><a href="{{ url_for('publique') }}">Publique Seu Artigo</a></li>
+                <li><a href="{{ url_for('contribua') }}">Contribua</a></li>
+                <li><a href="{{ url_for('contato') }}">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <h1>Seja um contribuidor</h1>
+        <div class="textos">
+            <p>Walter Victor será eternamente grato a cada satoshi para esse projeto doado. Doando aqui, além de motivar o criador desse projeto você o ajuda a bancar os custos que ele eventualmente tem. Muito obrigado!</p>
+            <p>Doe através da Lightning network: pioustulip03@walletofsatoshi.com</p>    
+        </div>
+        
+    </main>
+
+    <footer class="rodape">
+        <p>O conteúdo desse site está livre para ampla distribuição. Copyright Free. Pode copiar!</p>
+        <p>Doe através de Lightning para o mantenedor desse Website: pioustulip03@walletofsatoshi.com</p>
+    </footer>
+</body>
+</html>

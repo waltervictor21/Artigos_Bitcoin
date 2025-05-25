@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+.ajuda {
+    background-color: #F7931A;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajuda a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header_logo {
+    display: flex;
+    height: 36px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.cabeçalho ul {
+    display: flex;
+    gap: 36px;
+}
+
+.cabeçalho ul li {
+    list-style: none;
+}
+
+.cabeçalho ul li a {
+    text-decoration: none;
+    color: #4c4c4c;
+    font-weight: 400;
+}
+
+.cabeçalho ul li a:hover {
+    text-decoration: none;
+    color: #F7931A;
+    font-weight: 400;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 6rem;
+    justify-content: center;
+    background-color: #4c4c4c;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rodape p {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
