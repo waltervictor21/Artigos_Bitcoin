@@ -30,8 +30,8 @@
             <h1 class="h1">Um <span class="orangetext"> software</span>, <br>muitos <span class="orangetext">artigos.</span></h1>
             <p>Participe agora da única livre classe da sociedade!</p>
             <div class="buttons">
-                <a href="/pages/artigos.html" target="_blank"><button>Leia os artigos</button></a>
-                <a href="/pages/publique.html" target="_blank"><button>Publique um artigo</button></a>
+                <a href="{{ url_for('artigos') }}"><button>Leia os artigos</button></a>
+                <a href="{{ url_for('publique') }}"><button>Publique um artigo</button></a>
             </div>
         </div>
         <img src="{{ url_for('static', filename='img/Skull_of_Satoshi.png') }}" alt="Foto da Escultura Skull of Satoshi" class="skull_of_satoshi">
