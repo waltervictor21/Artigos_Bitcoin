@@ -1,0 +1,22 @@
+.foot {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-3);
+  border-top: var(--Border-1);
+  & p {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    & span {
+      color: var(--Col-0);
+    }
+  }
+}
+.foot .date {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 400;
+  color: var(--Col-0);
+}
