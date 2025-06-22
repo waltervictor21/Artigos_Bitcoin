@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "articles": "Artículos",
+    "publish": "Publica Tu Artículo",
+    "help": "Contribuye",
+    "contact": "Contacto"
+  },
+  "main": {
+    "title": {
+      "1": "Un <span class=\"orangetext\">software</span>, <br />muchos <span class=\"orangetext\">artículos.</span>"
+    },
+    "subtitle": "¡Únete ahora a la única clase libre de la sociedad!",
+
+    "button": {
+      "read": "Leer artículos",
+      "publish": "Publicar un artículo"
+    },
+
+    "help": "¡Necesitamos tu ayuda!",
+    "section1": {
+      "title": "¿Por qué hacemos lo que hacemos?",
+      "text": "El proyecto Artigos Bitcoin comenzó cuando Walter Victor sintió la falta de organización y la necesidad de la misma en artículos relacionados con Bitcoin, ya sea económica, filosófica o técnicamente. Así nace Artigos Bitcoin, una biblioteca en la que cualquiera puede leer y publicar sus propios artículos sobre Bitcoin, totalmente en portugués. Si te sientes agradecido por el contenido disponible aquí y quieres contribuir con algunos satoshis vía Lightning, la dirección se encuentra en el pie de página o <a href=\"/pages/ajuda.html\" target=\"_blank\">en este enlace.</a> Gracias por leer."
+    }
+  },
+  "footer": {
+    "licenca": "El contenido de este sitio está libre para su amplia distribución. Copyright Free. ¡Puedes copiarlo!",
+    "lightning": "Dona a través de Lightning al mantenedor de este sitio web: <span>pioustulip03@walletofsatoshi.com</span>",
+    "copy": "Bitcoiners 2025"
+  },
+
+  "publish": {
+    "title": "Publica tu artículo",
+    "description": "Por razones de seguridad, después de publicar tu archivo, nuestro equipo revisará si es SPAM o si realmente es un artículo. En general, somos bastante liberales en cuanto a lo que se publica. La mayoría son aprobados. ¡Gracias por escribir con nosotros!",
+    "nameLabel": "<ion-icon name=\"person\"></ion-icon> Escribe tu nombre:",
+    "emailLabel": "<ion-icon name=\"mail\"></ion-icon> Escribe tu correo electrónico:",
+    "messageLabel": "<ion-icon name=\"chatbox\"></ion-icon> Escribe tu artículo aquí:",
+    "submit": "Publicar"
+  },
+
+  "help": {
+    "title": "Sé un colaborador",
+    "description": "Walter Victor estará eternamente agradecido por cada satoshi donado a este proyecto. Al donar, no solo motivas al creador, sino que también lo ayudas a cubrir los costos que pueda tener. ¡Muchas gracias!",
+    "lightning": "Dona a través de la red Lightning: <span>pioustulip03@walletofsatoshi.com</span>"
+  },
+
+  "contact": {
+    "title": "Ponte en contacto con nosotros",
+    "description": "¿Necesitas contactar al equipo de administración? Puedes enviar un mensaje directo a <a href='https://x.com/waltervictor21' target='_blank'>@waltervictor21</a> en X, antes conocido como Twitter."
+  }
+}
